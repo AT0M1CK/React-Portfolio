@@ -6,7 +6,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        burtons: "burtons",
+      },
+      colors: {
+        ocean: "#EBEFF2",
+      },
+    },
   },
   plugins: [],
 };
